@@ -1,0 +1,118 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    background-color: #FEFEEF;
+    padding-bottom: 100px;
+}
+.logo img {
+    width: 250px;
+    height: auto;
+}
+.mobile-logo img {
+    width: 250px;
+    height: auto;
+    display: none;
+}
+@media(max-width: 600px) {
+    .logo img {
+        width: 250px;
+        height: auto;
+        display: none;
+    }
+    .mobile-logo img {
+        width: 250px;
+        height: auto;
+        display: block;
+    }
+}
+.bottom-button {
+    background-color: #7CBA07;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 7px;
+}
+.custom-menu {
+    margin: 0px 0px 0px 30px;
+}
+.custom-menu a {
+    color: #676664;
+    font-weight: 500;
+}
+.bg-image {
+    background-image: url('images/green.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mask-image img {
+    width: 100%;
+    height: 460px;
+
+}
+
+.card-width {
+    border-radius: 10px;
+    border: none;
+}
+.card-img-top {
+    width: 100%;
+    height: 350px;
+    background-color: #F1F1F1;
+}
+
+.responsive-card {
+   height: 300px;
+   border-radius: 5px;
+}
+.responsive-card-footer {
+    background-color: white;
+    border: none;
+}
+.responsive-card-footer h3 {
+    color: #F7CD35;
+    font-weight: 700;
+}
+
+
+.contact-area {
+    padding: 100px 0px 140px 0px;
+}
+.footer-card-image {
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+}
+.contact-card {
+    border:1px solid #f8f8f8;
+    border-radius: 20px;
+}
+.card-body h5 {
+    color: #5f527e;
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+.card-body p {
+    color: #9A9A9A;
+    font-size: 14px;
+    font-weight: 700;
+}
+.banner {
+   padding-left: 40px;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+
